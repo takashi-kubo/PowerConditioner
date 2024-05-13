@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TSR_1-48120WI
+D 1 Amp POL converter, industrial, ultra wide 9-72 VDC input, pos.-pos. circuit, LM78 compatible, SIP-3
+K
+F https://tracopower.com/tsr1wi-datasheet/
+$ENDCMP
+#
+#End Doc Library

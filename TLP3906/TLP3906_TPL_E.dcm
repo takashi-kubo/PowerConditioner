@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLP3906_TPL,E
+D Photodiode Output Optocouplers GaAAs Infrared LED and Photo Diode
+K
+F https://mouser.componentsearchengine.com/Datasheets/1/TLP3906(TPL,E.pdf
+$ENDCMP
+#
+#End Doc Library

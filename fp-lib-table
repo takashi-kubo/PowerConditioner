@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "aa")(type "KiCad")(uri "${KIPRJMOD}/NBM2317S60D1565T0R")(options "")(descr ""))
+)
