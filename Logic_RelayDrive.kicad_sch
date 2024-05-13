@@ -5,21 +5,21 @@
 	(uuid "504845e5-a6a3-480a-b108-56f444792592")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
+			(property "Value" "Conn_01x03"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x03_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -96,7 +96,18 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -107,7 +118,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -125,7 +136,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -135,6 +146,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2594,6 +2623,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 144.78) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4229e-60e5-4112-87e5-e3108d377435")
+	)
+	(wire
+		(pts
 			(xy 121.92 35.56) (xy 135.89 35.56)
 		)
 		(stroke
@@ -3243,6 +3282,28 @@
 	)
 	(global_label "V3R3"
 		(shape input)
+		(at 73.66 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cf943d4-f813-45d0-80a5-f5af18e4207b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.4228 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V3R3"
+		(shape input)
 		(at 151.13 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3815,7 +3876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "NBM_FAN"
 			(at 225.552 123.1321 0)
 			(effects
 				(font
@@ -4945,7 +5006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector_Generic:Conn_01x03")
 		(at 66.04 147.32 0)
 		(mirror y)
 		(unit 1)
@@ -4963,7 +5024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "REGEN_VOLUME"
 			(at 64.008 149.8021 0)
 			(effects
 				(font
@@ -4990,7 +5051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 66.04 147.32 0)
 			(effects
 				(font
@@ -5004,6 +5065,9 @@
 		)
 		(pin "2"
 			(uuid "508e27f5-db5e-4a0b-8d0c-f5e1be522be8")
+		)
+		(pin "3"
+			(uuid "8409dd26-26c6-4394-895a-732182561058")
 		)
 		(instances
 			(project "PowerConditioner"
