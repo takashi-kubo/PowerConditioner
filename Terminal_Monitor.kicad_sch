@@ -6858,7 +6858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 105.1052 76.2 0)
 			(effects
 				(font
@@ -6926,7 +6926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSR148120WI"
+		(property "Footprint" "TSR_1-48120WI:TSR148120WI"
 			(at 212.09 124.13 0)
 			(effects
 				(font
@@ -7067,7 +7067,7 @@
 				)
 			)
 		)
-		(property "Value" "7460553"
+		(property "Value" "BATT-"
 			(at 36.83 99.8798 0)
 			(effects
 				(font
@@ -7075,7 +7075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7460553"
+		(property "Footprint" "7460553:7460553"
 			(at 44.45 199.06 0)
 			(effects
 				(font
@@ -7437,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 143.51 166.878 90)
 			(effects
 				(font
@@ -7507,7 +7507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 223.52 34.29 0)
 			(effects
 				(font
@@ -7567,7 +7567,7 @@
 				)
 			)
 		)
-		(property "Value" "7460553"
+		(property "Value" "BATT+"
 			(at 36.83 77.0198 0)
 			(effects
 				(font
@@ -7575,7 +7575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7460553"
+		(property "Footprint" "7460553:7460553"
 			(at 44.45 176.2 0)
 			(effects
 				(font
@@ -7741,7 +7741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 223.52 29.21 0)
 			(effects
 				(font
@@ -7811,7 +7811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 108.9152 86.36 0)
 			(effects
 				(font
@@ -7871,7 +7871,7 @@
 				)
 			)
 		)
-		(property "Value" "7460553"
+		(property "Value" "EDLC-"
 			(at 36.83 47.8098 0)
 			(effects
 				(font
@@ -7879,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7460553"
+		(property "Footprint" "7460553:7460553"
 			(at 44.45 146.99 0)
 			(effects
 				(font
@@ -8035,7 +8035,7 @@
 				)
 			)
 		)
-		(property "Value" "7460553"
+		(property "Value" "EDLC+"
 			(at 36.83 23.6798 0)
 			(effects
 				(font
@@ -8043,7 +8043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7460553"
+		(property "Footprint" "7460553:7460553"
 			(at 44.45 122.86 0)
 			(effects
 				(font
@@ -8209,7 +8209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 44.45 139.7 0)
 			(effects
 				(font
@@ -8283,7 +8283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NBM2317S60D1565T0R"
+		(property "Footprint" "NBM2317S60D1565T0R:NBM2317S60D1565T0R"
 			(at 158.75 122.86 0)
 			(effects
 				(font

@@ -1,4 +1,18 @@
-23339646689568944
+23356806124069429
+2-1904025-3
+RELAY_2-1904025-3
+
+
+0
+5
+5
+7460553
+7460553
+7460553-1
+Connector
+0
+10
+10
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56951,6 +56965,27 @@ heatsink
 0
 0
 0
+IPB017N10N5LFATMA1
+PG-TO 263-7_INF
+
+IPB017N10N5LFATMA1 
+0
+7
+7
+IPB017N10N5LFATMA1
+PG-TO 263-7_INF-L
+
+IPB017N10N5LFATMA1 
+0
+7
+7
+IPB017N10N5LFATMA1
+PG-TO 263-7_INF-M
+
+IPB017N10N5LFATMA1 
+0
+7
+7
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -63622,6 +63657,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LocalLibrary
+LGA11xxCooler
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -66198,6 +66240,13 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NBM2317S60D1565T0R
+NBM2317S60D1565T0R
+NBM2317S60D1565T0R-2
+Power Supply
+0
+85
+85
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -87646,6 +87695,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SeeduinoXIAO
+Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM
+
+
+0
+20
+20
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -89298,6 +89354,20 @@ Logo WEEE
 0
 0
 0
+TLP3906
+SOP254P700X220-4N
+4pin SO6
+Integrated Circuit
+0
+4
+4
+TSR_1-48120WI
+TSR148120WI
+3-SIP Module-
+Power Supply
+0
+5
+5
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -95353,10 +95423,10 @@ Varistor VF
 0
 2
 2
-aa
-NBM2317S60D1565T0R
-NBM2317S60D1565T0R-2
-Power Supply
+YK9010323000G
+YK9010323000G
+YK9010323000G-2
+Connector
 0
-85
-85
+6
+6

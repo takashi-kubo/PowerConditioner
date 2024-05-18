@@ -1473,7 +1473,7 @@
 				)
 			)
 		)
-		(symbol "YK9010223000G:YK9010223000G"
+		(symbol "YK9010323000G:YK9010323000G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1486,7 +1486,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "YK9010223000G"
+			(property "Value" "YK9010323000G"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -1495,7 +1495,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "YK9010223000G"
+			(property "Footprint" "YK9010323000G"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -1505,7 +1505,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.anytek.com.tw/UserUpFiles/20181022/pcnlAjkmj4_o.pdf"
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/18/1/GBaMxIyb957x-1379513.pdf"
 				(at 16.51 -194.92 0)
 				(effects
 					(font
@@ -1544,7 +1544,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "YK9010223000G"
+			(property "Manufacturer_Part_Number" "YK9010323000G"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -1554,7 +1554,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "649-YK90102230J0G"
+			(property "Mouser Part Number" "649-YK90103230J0G"
 				(at 16.51 -694.92 0)
 				(effects
 					(font
@@ -1564,7 +1564,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK9010223000G?qs=Mv7BduZupUjtkHII27WIfQ%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK9010323000G?qs=Mv7BduZupUgt%2F6dCeQIgqg%3D%3D"
 				(at 16.51 -794.92 0)
 				(effects
 					(font
@@ -1574,7 +1574,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "YK9010223000G"
+			(property "Arrow Part Number" ""
 				(at 16.51 -894.92 0)
 				(effects
 					(font
@@ -1584,7 +1584,7 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/yk9010223000g/amphenol?region=nac"
+			(property "Arrow Price/Stock" ""
 				(at 16.51 -994.92 0)
 				(effects
 					(font
@@ -1594,10 +1594,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "YK9010223000G_1_1"
+			(symbol "YK9010323000G_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -5.08)
+					(end 15.24 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1607,7 +1607,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1625,7 +1625,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 20.32 0 180)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1635,6 +1635,78 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1886,6 +1958,12 @@
 		(uuid "42e4818a-3e96-4169-9b96-4882761038a9")
 	)
 	(junction
+		(at 252.73 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "521f3797-c079-4407-aa36-697de409692a")
+	)
+	(junction
 		(at 185.42 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1898,10 +1976,22 @@
 		(uuid "90aa1372-4362-4095-8778-9a424ddf649a")
 	)
 	(junction
-		(at 247.65 124.46)
+		(at 260.35 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "956c8b2f-d30c-4c66-ab19-ee13c0677aa5")
+	)
+	(junction
+		(at 262.89 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2ec61c3-25ae-4364-9cd4-c11c79a16ca1")
+	)
+	(junction
+		(at 260.35 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4471f5-c212-4042-b1ce-2f4b6f6ceb86")
 	)
 	(junction
 		(at 106.68 77.47)
@@ -1943,6 +2033,16 @@
 		(at 241.3 77.47)
 		(uuid "dbdbaf83-f1bd-456c-9029-2699ef6ebfd9")
 	)
+	(wire
+		(pts
+			(xy 252.73 33.02) (xy 257.81 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023213a2-45ce-4211-a1cd-c582f886058d")
+	)
 	(polyline
 		(pts
 			(xy 181.61 34.29) (xy 181.61 100.33)
@@ -1965,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 128.27) (xy 247.65 124.46)
+			(xy 260.35 128.27) (xy 260.35 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1985,13 +2085,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 74.93) (xy 247.65 124.46)
+			(xy 262.89 72.39) (xy 262.89 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18802923-5342-4e64-ad91-957109b8adf0")
+		(uuid "161cbf28-dd94-467e-8e2d-f682c0e9d031")
 	)
 	(wire
 		(pts
@@ -2022,6 +2122,16 @@
 			(type default)
 		)
 		(uuid "230e5cf5-7da6-4eb8-8f90-a6f30203a40f")
+	)
+	(wire
+		(pts
+			(xy 262.89 35.56) (xy 262.89 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23111ff4-c3c3-416b-bc80-2925eaae1df4")
 	)
 	(wire
 		(pts
@@ -2063,16 +2173,6 @@
 			(type default)
 		)
 		(uuid "2bc00986-da83-41dd-88fa-7d0547c4bf90")
-	)
-	(wire
-		(pts
-			(xy 196.85 35.56) (xy 191.77 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c1f5981-5491-4695-8065-3d6e76f9a975")
 	)
 	(wire
 		(pts
@@ -2187,6 +2287,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 74.93) (xy 260.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d179a7a-90ab-4170-a712-579f28eb33f6")
+	)
+	(wire
+		(pts
 			(xy 104.14 82.55) (xy 104.14 85.09)
 		)
 		(stroke
@@ -2237,13 +2347,33 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 33.02) (xy 185.42 33.02)
+			(xy 257.81 55.88) (xy 257.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60638093-5ee2-4f3a-94ff-cb1d24c2657c")
+	)
+	(wire
+		(pts
+			(xy 185.42 33.02) (xy 252.73 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "611353b6-a618-4c72-8d4c-e6fa2600085d")
+	)
+	(wire
+		(pts
+			(xy 257.81 58.42) (xy 252.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f2c6db-cad7-4968-b776-88327b6a2050")
 	)
 	(wire
 		(pts
@@ -2369,6 +2499,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 33.02) (xy 267.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a90e649-60b9-48b6-9ba9-dea8ac748082")
+	)
+	(wire
+		(pts
 			(xy 246.38 67.31) (xy 246.38 49.53)
 		)
 		(stroke
@@ -2389,6 +2529,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 33.02) (xy 267.97 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b93fb4d-bc66-410a-a1e5-ffee93fe03d4")
+	)
+	(wire
+		(pts
 			(xy 93.98 105.41) (xy 106.68 105.41)
 		)
 		(stroke
@@ -2396,6 +2546,16 @@
 			(type default)
 		)
 		(uuid "8e3e15b5-5bbc-4aea-b616-d748ebbb7802")
+	)
+	(wire
+		(pts
+			(xy 260.35 30.48) (xy 270.51 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8edcfd79-8e9a-4284-a9b3-d0323f24cd7c")
 	)
 	(polyline
 		(pts
@@ -2416,6 +2576,26 @@
 			(type default)
 		)
 		(uuid "8fc027b8-e0b3-41ad-b3d9-4a509e270c53")
+	)
+	(wire
+		(pts
+			(xy 252.73 58.42) (xy 252.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d6f524-c66d-4e0b-ad1b-128bbaab200e")
+	)
+	(wire
+		(pts
+			(xy 260.35 55.88) (xy 260.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9567974f-efb4-409e-a223-4eec568510ea")
 	)
 	(wire
 		(pts
@@ -2461,6 +2641,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 30.48) (xy 270.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad227224-895c-4364-9b09-b17e80a5f825")
+	)
+	(wire
+		(pts
 			(xy 19.05 54.61) (xy 27.94 54.61)
 		)
 		(stroke
@@ -2468,6 +2658,16 @@
 			(type default)
 		)
 		(uuid "ad82598e-c6ef-40d7-b490-bd7c692c08bb")
+	)
+	(wire
+		(pts
+			(xy 257.81 33.02) (xy 257.81 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae898baa-bf70-48ab-8955-99add2b8ad80")
 	)
 	(wire
 		(pts
@@ -2481,13 +2681,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 74.93) (xy 255.27 74.93)
+			(xy 267.97 58.42) (xy 262.89 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2235ec5-594f-4338-bf91-36c35e8c7e3b")
+		(uuid "b071fe34-b9ca-4432-ac07-3d26d83e6bb3")
 	)
 	(polyline
 		(pts
@@ -2502,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 72.39) (xy 241.3 72.39)
+			(xy 241.3 72.39) (xy 262.89 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2571,6 +2771,26 @@
 		)
 		(uuid "c0785f76-7b7f-4411-8d78-d0c3c1ae422d")
 	)
+	(wire
+		(pts
+			(xy 260.35 74.93) (xy 260.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0df211a-51bc-4e23-9e52-a9fe6c8f3478")
+	)
+	(wire
+		(pts
+			(xy 262.89 58.42) (xy 262.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1668618-63e8-4121-a9ce-ddd819325525")
+	)
 	(polyline
 		(pts
 			(xy 162.56 63.5) (xy 162.56 109.22)
@@ -2625,6 +2845,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 35.56) (xy 260.35 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced67668-7733-40e2-973c-65171bd9667b")
+	)
+	(wire
+		(pts
 			(xy 163.83 105.41) (xy 166.37 105.41)
 		)
 		(stroke
@@ -2642,16 +2872,6 @@
 			(type default)
 		)
 		(uuid "db62af2b-8efd-412c-be95-cc14552193f9")
-	)
-	(wire
-		(pts
-			(xy 191.77 35.56) (xy 191.77 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de6055e2-cf99-43a2-a2b4-df2a05d446a8")
 	)
 	(wire
 		(pts
@@ -2735,7 +2955,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 124.46) (xy 247.65 124.46)
+			(xy 220.98 124.46) (xy 260.35 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2804,25 +3024,6 @@
 		)
 		(uuid "ffbfda18-0418-4689-89c3-aa93f3b6a032")
 	)
-	(text_box "Bypass OUT\nFor using greater than 24V Battery"
-		(exclude_from_sim no)
-		(at 186.69 19.05 0)
-		(size 38.1 24.13)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "198ab2eb-f66d-4b7b-86ab-01170cf22a0d")
-	)
 	(text_box "NBM2317\nBIDIRECTIONAL DCDC"
 		(exclude_from_sim no)
 		(at 199.39 44.45 90)
@@ -2864,7 +3065,7 @@
 	(text_box "Normal OUT\nFor using 12V Battery"
 		(exclude_from_sim no)
 		(at 210.82 58.42 0)
-		(size 66.04 29.21)
+		(size 39.37 29.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -2916,6 +3117,17 @@
 		)
 		(uuid "ec598088-d105-40cf-9f2d-6a706ae21467")
 	)
+	(text "1,2:BYPASS OUT\n3,4:GND\n5,6:NBM HI"
+		(exclude_from_sim no)
+		(at 254.762 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cbc4482-2a70-4810-a4d4-f09899565ae5")
+	)
 	(text "PhotoCouplerDesignReference:\nhttps://toshiba.semicon-storage.com/jp/semiconductor/design-development/referencedesign/detail.RD048.html"
 		(exclude_from_sim no)
 		(at 19.05 4.318 0)
@@ -2926,16 +3138,6 @@
 			(justify left)
 		)
 		(uuid "5d0bbe27-b6dc-4150-adc1-58b48990eac6")
-	)
-	(text "Terminal For Inverter"
-		(exclude_from_sim no)
-		(at 263.144 63.246 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "68650dce-5861-4de6-8f16-fd02fe4a8997")
 	)
 	(text "NO:BATT and EDLC are connected serial.\nNC:BATT and EDLC are connected parallel.\n"
 		(exclude_from_sim no)
@@ -3283,7 +3485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
 			(at 58.42 49.53 0)
 			(effects
 				(font
@@ -3347,7 +3549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO 263-7_INF"
+		(property "Footprint" "IPB017N10N5LFATMA1:PG-TO 263-7_INF"
 			(at 110.49 77.47 0)
 			(effects
 				(font
@@ -3431,7 +3633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 108.458 99.06 90)
 			(effects
 				(font
@@ -3474,16 +3676,17 @@
 		)
 	)
 	(symbol
-		(lib_id "YK9010223000G:YK9010223000G")
-		(at 255.27 72.39 0)
+		(lib_id "YK9010323000G:YK9010323000G")
+		(at 257.81 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "57c69694-df90-4386-a820-e40afc6ef9c6")
-		(property "Reference" "J2"
-			(at 266.446 65.532 0)
+		(fields_autoplaced yes)
+		(uuid "5d02ec99-5bb9-4516-8437-a4be79bc6b38")
+		(property "Reference" "J9"
+			(at 266.192 44.5078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,8 +3694,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YK9010223000G"
-			(at 271.018 68.072 0)
+		(property "Value" "YK9010323000G"
+			(at 266.192 46.9321 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,8 +3703,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "YK9010223000G"
-			(at 271.78 167.31 0)
+		(property "Footprint" "YK9010323000G:YK9010323000G"
+			(at 352.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,8 +3713,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.anytek.com.tw/UserUpFiles/20181022/pcnlAjkmj4_o.pdf"
-			(at 271.78 267.31 0)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/18/1/GBaMxIyb957x-1379513.pdf"
+			(at 452.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3724,7 @@
 			)
 		)
 		(property "Description" "Barrier Terminal Blocks TB BARRIER W/COVER"
-			(at 255.27 72.39 0)
+			(at 257.81 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3733,7 @@
 			)
 		)
 		(property "Height" "28.4"
-			(at 271.78 467.31 0)
+			(at 652.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3743,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol"
-			(at 271.78 567.31 0)
+			(at 752.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,8 +3752,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "YK9010223000G"
-			(at 271.78 667.31 0)
+		(property "Manufacturer_Part_Number" "YK9010323000G"
+			(at 852.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,8 +3762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "649-YK90102230J0G"
-			(at 271.78 767.31 0)
+		(property "Mouser Part Number" "649-YK90103230J0G"
+			(at 952.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,8 +3772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK9010223000G?qs=Mv7BduZupUjtkHII27WIfQ%3D%3D"
-			(at 271.78 867.31 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK9010323000G?qs=Mv7BduZupUgt%2F6dCeQIgqg%3D%3D"
+			(at 1052.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3579,8 +3782,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "YK9010223000G"
-			(at 271.78 967.31 0)
+		(property "Arrow Part Number" ""
+			(at 1152.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,8 +3792,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/yk9010223000g/amphenol?region=nac"
-			(at 271.78 1067.31 0)
+		(property "Arrow Price/Stock" ""
+			(at 1252.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,84 +3801,29 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "5dd45576-cf2b-4a37-83a6-5ff836752666")
 		)
 		(pin "2"
-			(uuid "7e3f0cfe-22b9-419c-a3f0-c255aff5464e")
+			(uuid "e9d95dda-a8a4-4272-86fc-8f2b49ba4076")
 		)
-		(instances
-			(project "PowerConditioner"
-				(path "/c43315c6-ffb1-48c3-9d81-d52b54d5b341"
-					(reference "J2")
-					(unit 1)
-				)
-			)
+		(pin "5"
+			(uuid "2c7f4084-58a2-4e0d-bc96-4a174a06dbf1")
 		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c06d8ff-a3b5-4322-86ed-f4aac6b8f3a3")
-		(property "Reference" "#PWR021"
-			(at 191.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "7021cd43-41ee-49b5-9d38-5d951a38fcfb")
 		)
-		(property "Value" "GND"
-			(at 193.675 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "b2cd7674-7b01-4c11-a275-3bbbe99dfc32")
 		)
 		(pin "1"
-			(uuid "c350f4e6-bde1-45e8-b870-f903879fc09a")
+			(uuid "9ef908d9-9b5f-4871-9e51-d548cb0c2678")
+		)
+		(pin "3"
+			(uuid "08966369-561a-462f-a246-741ec58819b2")
 		)
 		(instances
 			(project "PowerConditioner"
 				(path "/c43315c6-ffb1-48c3-9d81-d52b54d5b341"
-					(reference "#PWR021")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3881,147 +4029,6 @@
 		)
 	)
 	(symbol
-		(lib_id "YK9010223000G:YK9010223000G")
-		(at 196.85 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94e16c94-4210-4818-a719-262dca1f370b")
-		(property "Reference" "J8"
-			(at 208.026 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "YK9010223000G"
-			(at 212.598 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "YK9010223000G"
-			(at 213.36 127.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.anytek.com.tw/UserUpFiles/20181022/pcnlAjkmj4_o.pdf"
-			(at 213.36 227.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Barrier Terminal Blocks TB BARRIER W/COVER"
-			(at 196.85 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "28.4"
-			(at 213.36 427.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol"
-			(at 213.36 527.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "YK9010223000G"
-			(at 213.36 627.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "649-YK90102230J0G"
-			(at 213.36 727.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK9010223000G?qs=Mv7BduZupUjtkHII27WIfQ%3D%3D"
-			(at 213.36 827.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "YK9010223000G"
-			(at 213.36 927.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/yk9010223000g/amphenol?region=nac"
-			(at 213.36 1027.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5689e5b7-4024-48b5-ae87-182533e98d63")
-		)
-		(pin "2"
-			(uuid "7d5004fa-d3fd-4fc9-9bf6-0949ef1425fe")
-		)
-		(instances
-			(project "PowerConditioner"
-				(path "/c43315c6-ffb1-48c3-9d81-d52b54d5b341"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PC7150:2-1904025-3")
 		(at 38.1 49.53 0)
 		(unit 1)
@@ -4039,7 +4046,7 @@
 				)
 			)
 		)
-		(property "Value" "2-1904025-3"
+		(property "Value" "BATT-EDLC"
 			(at 38.1 40.1898 0)
 			(effects
 				(font
@@ -4265,7 +4272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -4322,7 +4329,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2-1904025-3"
+		(property "Value" "OUTPUT"
 			(at 238.252 82.296 0)
 			(effects
 				(font
@@ -4591,7 +4598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 128.27 0)
+		(at 260.35 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4600,7 +4607,7 @@
 		(fields_autoplaced yes)
 		(uuid "e97d5038-fda1-4454-adae-30e17ff12871")
 		(property "Reference" "#PWR03"
-			(at 247.65 134.62 0)
+			(at 260.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +4616,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 249.555 129.54 0)
+			(at 262.255 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +4625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 128.27 0)
+			(at 260.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 128.27 0)
+			(at 260.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 128.27 0)
+			(at 260.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,15 +4675,15 @@
 		(fields_autoplaced yes)
 		(uuid "f68d7e3a-66b6-4a37-a095-fe8b939de148")
 		(property "Reference" "K2"
-			(at 140.97 131.1445 0)
+			(at 140.97 107.6155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2-1904025-3"
-			(at 140.97 128.7202 0)
+		(property "Value" "SERIAL-PARALLEL"
+			(at 140.97 110.0398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +4908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TO 263-7_INF"
+		(property "Footprint" "IPB017N10N5LFATMA1:PG-TO 263-7_INF"
 			(at 104.14 77.47 0)
 			(effects
 				(font
