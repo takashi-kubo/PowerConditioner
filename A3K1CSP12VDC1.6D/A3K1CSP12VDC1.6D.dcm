@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A3K1CSP12VDC1.6D
+D RELAY AUTOMOTIVE SPDT 150A 12V 
+K
+F https://g.componentsearchengine.com/Datasheets/0/17258424.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -5,6 +5,339 @@
 	(uuid "c43315c6-ffb1-48c3-9d81-d52b54d5b341")
 	(paper "A4")
 	(lib_symbols
+		(symbol "A3K1CSP12VDC1.6D:A3K1CSP12VDC1.6D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "A3K1CSP12VDC1.6D"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "A3K1CSP12VDC16D"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://g.componentsearchengine.com/Datasheets/0/17258424.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RELAY AUTOMOTIVE SPDT 150A 12V "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "24.5"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "CIT Relay & Switch"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "A3K1CSP12VDC1.6D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 26.67 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 26.67 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "A3K1CSP12VDC1.6D_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "COM_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "A_COIL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "85"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "K_COIL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "86"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "87"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "88"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "NO_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "89"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "NC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A87"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "NC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A88"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "NC_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A89"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -936,543 +1269,6 @@
 				)
 			)
 		)
-		(symbol "PC7150:2-1904025-3"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "2-1904025-3"
-				(at -7.62 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "2-1904025-3:RELAY_2-1904025-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Comment" "2-1904025-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "25.30 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/2-1904025-3/TE+Connectivity/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/2-1904025-3/TE+Connectivity/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "2-1904025-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=385953&manufacturer=TE Connectivity&part_name=2-1904025-3&search_term=automotive relay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nRelay, Automotive, 40A, 24V, SPDT, Non Latching,Socketable, Plug-In, SRF-A Serie | TE Connectivity 2-1904025-3\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TE Connectivity"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "2-1904025-3_0_0"
-				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.604 -4.064) (xy -6.096 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -3.81) (xy -6.35 -4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.635) (xy -3.81 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0.635) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.81 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.635) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 1.27 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -2.54) (xy 3.175 -2.54) (xy 2.54 -1.27) (xy 1.905 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 2.54) (xy 1.905 2.54) (xy 2.54 1.27) (xy 3.175 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "85"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "86"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "87"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "87A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "YK9010323000G:YK9010323000G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1940,10 +1736,28 @@
 		(uuid "00644104-9961-4bda-9926-fb086f3fc741")
 	)
 	(junction
+		(at 15.24 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08725b5c-7d89-4c5d-8fde-edded79881ab")
+	)
+	(junction
 		(at 104.14 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "135f39c0-1e13-4589-aaa5-357e3e721c2c")
+	)
+	(junction
+		(at 45.72 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dd76347-712b-4e20-977d-4f8b82da8047")
+	)
+	(junction
+		(at 124.46 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b840a2b-614b-4f9c-870f-f9d9f5cfcd59")
 	)
 	(junction
 		(at 180.34 124.46)
@@ -1952,16 +1766,46 @@
 		(uuid "2e386ab1-f686-4531-b5e2-121f3d540734")
 	)
 	(junction
+		(at 154.94 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "371847da-4ea2-4132-9c19-382bc68fdd9e")
+	)
+	(junction
 		(at 110.49 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42e4818a-3e96-4169-9b96-4882761038a9")
 	)
 	(junction
-		(at 252.73 33.02)
+		(at 255.27 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c1848ee-d5c3-4ea6-9da6-804408e8f388")
+	)
+	(junction
+		(at 262.89 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "521f3797-c079-4407-aa36-697de409692a")
+	)
+	(junction
+		(at 154.94 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59fe1494-4ce0-48a7-a6ed-6a6b7decd84b")
+	)
+	(junction
+		(at 154.94 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83609eba-f3d7-480d-ac48-8f1b177608b5")
+	)
+	(junction
+		(at 224.79 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aae0601-6598-449a-8678-eeeb0a15cd4b")
 	)
 	(junction
 		(at 185.42 49.53)
@@ -1976,22 +1820,52 @@
 		(uuid "90aa1372-4362-4095-8778-9a424ddf649a")
 	)
 	(junction
-		(at 260.35 124.46)
+		(at 270.51 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "956c8b2f-d30c-4c66-ab19-ee13c0677aa5")
 	)
 	(junction
-		(at 262.89 58.42)
+		(at 45.72 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2ec61c3-25ae-4364-9cd4-c11c79a16ca1")
+		(uuid "a8376f89-8025-455e-95fa-30299e894dbb")
 	)
 	(junction
-		(at 260.35 74.93)
+		(at 124.46 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac58aa76-e516-4742-aef8-1e548fb07973")
+	)
+	(junction
+		(at 45.72 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0905eb0-cad6-4867-abac-264274004242")
+	)
+	(junction
+		(at 15.24 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a25a7d-32c7-45f3-8c1d-afe2638ef782")
+	)
+	(junction
+		(at 255.27 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2dbf0a3-89f0-4f6b-9b25-c56b3e855946")
+	)
+	(junction
+		(at 270.51 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba4471f5-c212-4042-b1ce-2f4b6f6ceb86")
+	)
+	(junction
+		(at 52.07 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb88fe83-f904-4c77-929d-f7b4687e65da")
 	)
 	(junction
 		(at 106.68 77.47)
@@ -2012,10 +1886,22 @@
 		(uuid "d6cff246-aa20-4cf0-bb76-50015635cf02")
 	)
 	(junction
+		(at 273.05 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e5f806-38b0-4b8d-808b-b27af16aee72")
+	)
+	(junction
 		(at 52.07 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9ae8534-b72a-4a79-a5cf-b5cefa5717cd")
+	)
+	(junction
+		(at 158.75 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef58b774-5144-4dd0-b4f4-07abc7e82401")
 	)
 	(junction
 		(at 161.29 85.09)
@@ -2024,24 +1910,48 @@
 		(uuid "f4914601-a000-403a-a39d-312cc39616ed")
 	)
 	(junction
+		(at 224.79 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8a8de7-d271-425f-a3e7-1c0f7968b318")
+	)
+	(junction
 		(at 104.14 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fce5c736-263b-4fe5-a2d3-70e0552e03a2")
 	)
 	(no_connect
-		(at 241.3 77.47)
-		(uuid "dbdbaf83-f1bd-456c-9029-2699ef6ebfd9")
+		(at 224.79 87.63)
+		(uuid "256cb5c1-d00c-4e62-8965-f38e1d3e072e")
+	)
+	(no_connect
+		(at 255.27 77.47)
+		(uuid "31fa840e-c604-428f-92fe-76a96eb03eb7")
+	)
+	(no_connect
+		(at 255.27 74.93)
+		(uuid "7a6a5743-c90b-4619-b5a5-5b5df88083cc")
 	)
 	(wire
 		(pts
-			(xy 252.73 33.02) (xy 257.81 33.02)
+			(xy 262.89 33.02) (xy 267.97 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "023213a2-45ce-4211-a1cd-c582f886058d")
+	)
+	(wire
+		(pts
+			(xy 124.46 114.3) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0579364a-3003-4bf7-a737-d909fb75cb08")
 	)
 	(polyline
 		(pts
@@ -2052,6 +1962,26 @@
 			(type solid)
 		)
 		(uuid "0a4b71e3-5b1b-4f41-8c0f-b5e42676dbff")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2d4682-99ab-40c1-8806-373b623e0fb9")
+	)
+	(wire
+		(pts
+			(xy 218.44 49.53) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125890d7-3833-4a63-a2ea-f498ab1b9f3b")
 	)
 	(polyline
 		(pts
@@ -2065,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 128.27) (xy 260.35 124.46)
+			(xy 270.51 128.27) (xy 270.51 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2085,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 72.39) (xy 262.89 58.42)
+			(xy 273.05 71.12) (xy 273.05 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2115,6 +2045,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 49.53) (xy 55.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20492ab3-c723-4528-ab0f-8726a501c62d")
+	)
+	(wire
+		(pts
 			(xy 161.29 82.55) (xy 161.29 80.01)
 		)
 		(stroke
@@ -2125,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 35.56) (xy 262.89 33.02)
+			(xy 273.05 35.56) (xy 273.05 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2075,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 52.07) (xy 19.05 54.61)
+			(xy 49.53 63.5) (xy 45.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232d652b-8929-40a3-90a4-df7537cb9d1c")
+	)
+	(wire
+		(pts
+			(xy 3.81 66.04) (xy 3.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2166,13 +2116,23 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 77.47) (xy 220.98 77.47)
+			(xy 45.72 58.42) (xy 52.07 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bc00986-da83-41dd-88fa-7d0547c4bf90")
+		(uuid "2c4d778c-1fe5-446a-873b-d2f419d21374")
+	)
+	(wire
+		(pts
+			(xy 124.46 127) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbea18f-6022-4512-b33c-ac2d9f330879")
 	)
 	(wire
 		(pts
@@ -2186,33 +2146,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 119.38) (xy 151.13 119.38)
+			(xy 255.27 80.01) (xy 255.27 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "376db790-6773-43de-88f1-bbb2ba4e3edd")
+		(uuid "34f925d5-0184-47f9-b52a-013dd910517b")
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 130.81 114.3)
+			(xy 154.94 124.46) (xy 154.94 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "396aa683-5b6a-42e5-9ab1-f6ba2620de95")
-	)
-	(wire
-		(pts
-			(xy 214.63 76.2) (xy 214.63 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e14d963-2b69-4c53-8764-2615403affe2")
+		(uuid "361558cd-b429-4af9-89e2-6abd8b1c6660")
 	)
 	(wire
 		(pts
@@ -2236,16 +2186,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 124.46) (xy 130.81 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418a6e57-17aa-4205-9518-64e786defb1e")
-	)
-	(wire
-		(pts
 			(xy 161.29 92.71) (xy 161.29 85.09)
 		)
 		(stroke
@@ -2256,7 +2196,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 63.5) (xy 49.53 63.5)
+			(xy 162.56 63.5) (xy 59.69 63.5)
 		)
 		(stroke
 			(width 1)
@@ -2287,13 +2227,63 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 74.93) (xy 260.35 74.93)
+			(xy 124.46 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cd4de6-8e8b-4077-ada6-b64ee2cb43f4")
+	)
+	(wire
+		(pts
+			(xy 45.72 58.42) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a18a299-848c-4e76-96fa-431df456094c")
+	)
+	(wire
+		(pts
+			(xy 224.79 74.93) (xy 224.79 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a749fb7-170d-4639-a59c-9cc4d2c49906")
+	)
+	(wire
+		(pts
+			(xy 280.67 74.93) (xy 270.51 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d179a7a-90ab-4170-a712-579f28eb33f6")
+	)
+	(wire
+		(pts
+			(xy 273.05 58.42) (xy 278.13 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc33510-0723-456c-b8f3-844e7f37f5e4")
+	)
+	(wire
+		(pts
+			(xy 15.24 58.42) (xy 15.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50889a66-84aa-441b-ad1d-2c000811a58f")
 	)
 	(wire
 		(pts
@@ -2317,6 +2307,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 121.92) (xy 154.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5686496c-500f-46d6-a306-ec0868475779")
+	)
+	(wire
+		(pts
 			(xy 104.14 85.09) (xy 104.14 92.71)
 		)
 		(stroke
@@ -2337,17 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 49.53) (xy 246.38 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d02b226-c93f-4366-a73b-ad1e0ee4a0d2")
-	)
-	(wire
-		(pts
-			(xy 257.81 55.88) (xy 257.81 58.42)
+			(xy 267.97 55.88) (xy 267.97 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 33.02) (xy 252.73 33.02)
+			(xy 185.42 33.02) (xy 262.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 58.42) (xy 252.73 58.42)
+			(xy 267.97 58.42) (xy 262.89 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2377,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 63.5) (xy 49.53 52.07)
+			(xy 59.69 63.5) (xy 59.69 52.07)
 		)
 		(stroke
 			(width 1)
@@ -2396,9 +2386,29 @@
 		)
 		(uuid "6d18c1b3-38b7-48c3-998b-b8d840dff3e4")
 	)
+	(wire
+		(pts
+			(xy 45.72 66.04) (xy 45.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e517dea-1442-4316-83e1-2a1a9d7ba48f")
+	)
+	(wire
+		(pts
+			(xy 255.27 82.55) (xy 255.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e316f8-6b00-499c-926d-e32da098dcad")
+	)
 	(polyline
 		(pts
-			(xy 218.44 46.99) (xy 49.53 46.99)
+			(xy 256.54 46.99) (xy 57.15 46.99)
 		)
 		(stroke
 			(width 1)
@@ -2408,7 +2418,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 34.29) (xy 181.61 34.29)
+			(xy 57.15 34.29) (xy 181.61 34.29)
 		)
 		(stroke
 			(width 1)
@@ -2425,6 +2435,26 @@
 			(type default)
 		)
 		(uuid "72e305e3-07ea-46a3-8b43-0563e5039bd4")
+	)
+	(wire
+		(pts
+			(xy 213.36 85.09) (xy 224.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f432c1-bca5-4111-b48a-c567bda88922")
+	)
+	(wire
+		(pts
+			(xy 15.24 49.53) (xy 15.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733b5ad9-716d-467a-9d05-8a60d0637e96")
 	)
 	(wire
 		(pts
@@ -2448,13 +2478,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 36.83) (xy 179.07 36.83)
+			(xy 49.53 36.83) (xy 179.07 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76edb996-7307-4427-896a-925999255c1c")
+	)
+	(wire
+		(pts
+			(xy 15.24 71.12) (xy 15.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a78e593-ff5c-48b0-be66-6e032a92c4eb")
 	)
 	(wire
 		(pts
@@ -2465,6 +2505,16 @@
 			(type default)
 		)
 		(uuid "7b01a753-8974-4bb0-8927-eefcfcf9ca46")
+	)
+	(wire
+		(pts
+			(xy 113.03 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b474898-d923-449f-b93c-48e905680c12")
 	)
 	(polyline
 		(pts
@@ -2499,7 +2549,37 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 33.02) (xy 267.97 58.42)
+			(xy 15.24 60.96) (xy 15.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818abb31-6e53-4c49-8758-06f2c41aaf21")
+	)
+	(wire
+		(pts
+			(xy 224.79 71.12) (xy 224.79 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877d2d5f-6388-4e1d-84ee-f6411bc2606c")
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 113.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a16d4eb-bdd3-45a9-ad1b-1c7adb0cfc39")
+	)
+	(wire
+		(pts
+			(xy 278.13 33.02) (xy 278.13 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2509,7 +2589,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 67.31) (xy 246.38 49.53)
+			(xy 259.08 80.01) (xy 259.08 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 33.02) (xy 267.97 33.02)
+			(xy 273.05 33.02) (xy 278.13 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2549,7 +2629,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 30.48) (xy 270.51 30.48)
+			(xy 270.51 30.48) (xy 280.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2579,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 58.42) (xy 252.73 33.02)
+			(xy 262.89 58.42) (xy 262.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2589,7 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 55.88) (xy 260.35 74.93)
+			(xy 270.51 55.88) (xy 270.51 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2618,19 +2698,9 @@
 		)
 		(uuid "a37b6d6c-2655-4c84-b46d-3939f67d0e1c")
 	)
-	(wire
-		(pts
-			(xy 25.4 44.45) (xy 27.94 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7243fe-b627-447c-9c37-e3fc40f256b1")
-	)
 	(polyline
 		(pts
-			(xy 49.53 52.07) (xy 218.44 52.07)
+			(xy 59.69 52.07) (xy 256.54 52.07)
 		)
 		(stroke
 			(width 1)
@@ -2641,7 +2711,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 30.48) (xy 270.51 74.93)
+			(xy 280.67 30.48) (xy 280.67 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2651,17 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 54.61) (xy 27.94 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad82598e-c6ef-40d7-b490-bd7c692c08bb")
-	)
-	(wire
-		(pts
-			(xy 257.81 33.02) (xy 257.81 35.56)
+			(xy 267.97 33.02) (xy 267.97 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2671,27 +2731,37 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 163.83 119.38)
+			(xy 124.46 119.38) (xy 124.46 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afe3ccf2-d965-4e28-809c-8dcdc5b4fe24")
+		(uuid "aec4fedc-b38f-4a11-bc5e-f695ef0ce7fd")
 	)
 	(wire
 		(pts
-			(xy 267.97 58.42) (xy 262.89 58.42)
+			(xy 213.36 82.55) (xy 213.36 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b071fe34-b9ca-4432-ac07-3d26d83e6bb3")
+		(uuid "b038a510-9924-4fa5-a54d-e940b7d8f7ca")
+	)
+	(wire
+		(pts
+			(xy 15.24 77.47) (xy 52.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10f3d77-6c63-48ac-b59b-123101a54ecf")
 	)
 	(polyline
 		(pts
-			(xy 218.44 55.88) (xy 54.61 55.88)
+			(xy 256.54 55.88) (xy 62.23 55.88)
 		)
 		(stroke
 			(width 1)
@@ -2699,16 +2769,6 @@
 			(color 255 0 22 1)
 		)
 		(uuid "b5a29621-7f71-4d80-8a2c-f5338eaf687a")
-	)
-	(wire
-		(pts
-			(xy 241.3 72.39) (xy 262.89 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7eb5639-b574-4c8e-b0b6-6c06e4726d4d")
 	)
 	(wire
 		(pts
@@ -2730,19 +2790,9 @@
 		)
 		(uuid "bbad477d-66ac-4b8b-9a35-72d3b08b8d76")
 	)
-	(wire
-		(pts
-			(xy 151.13 124.46) (xy 180.34 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf36008-9222-43b7-aeb3-31209afddfec")
-	)
 	(polyline
 		(pts
-			(xy 54.61 55.88) (xy 54.61 59.69)
+			(xy 62.23 55.88) (xy 62.23 59.69)
 		)
 		(stroke
 			(width 1)
@@ -2753,7 +2803,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 67.31) (xy 241.3 67.31)
+			(xy 45.72 63.5) (xy 45.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd17bc22-42f5-4062-99b6-0c40e86f6339")
+	)
+	(wire
+		(pts
+			(xy 259.08 80.01) (xy 255.27 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2833,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 74.93) (xy 260.35 124.46)
+			(xy 270.51 74.93) (xy 270.51 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 58.42) (xy 262.89 55.88)
+			(xy 273.05 58.42) (xy 273.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 54.61) (xy 52.07 77.47)
+			(xy 52.07 58.42) (xy 52.07 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2814,13 +2874,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 49.53) (xy 55.88 49.53)
+			(xy 52.07 77.47) (xy 53.34 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb561719-8ab8-44b2-a253-6f8f556c497d")
+		(uuid "cbd7d52f-d6fb-4a8b-9ac3-00b9d56bb326")
 	)
 	(polyline
 		(pts
@@ -2834,7 +2894,7 @@
 	)
 	(polyline
 		(pts
-			(xy 54.61 59.69) (xy 165.1 59.69)
+			(xy 62.23 59.69) (xy 165.1 59.69)
 		)
 		(stroke
 			(width 1)
@@ -2845,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 35.56) (xy 260.35 30.48)
+			(xy 270.51 35.56) (xy 270.51 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2855,13 +2915,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 166.37 105.41)
+			(xy 124.46 116.84) (xy 124.46 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2a280fd-86fc-440f-9972-0dc447481cc2")
+		(uuid "d20f28fa-ba02-441f-8054-e7bdeb374b6a")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d579dc7d-5cfa-475b-998c-888721a1050e")
+	)
+	(wire
+		(pts
+			(xy 158.75 132.08) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f28280-e645-4a0e-a0c9-54c9d673b008")
 	)
 	(wire
 		(pts
@@ -2875,6 +2955,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 132.08) (xy 158.75 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddabc901-5037-4ffb-a696-8c1f88a8a529")
+	)
+	(wire
+		(pts
 			(xy 180.34 124.46) (xy 180.34 128.27)
 		)
 		(stroke
@@ -2885,13 +2975,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 54.61) (xy 48.26 54.61)
+			(xy 224.79 71.12) (xy 273.05 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e43a3b0c-dc03-4eb4-97aa-19589ffd6dfb")
+		(uuid "e6d634ff-4f95-470e-bb07-56acf3a4cc0e")
 	)
 	(wire
 		(pts
@@ -2905,16 +2995,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 77.47) (xy 53.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9eff107-55c4-4b8a-acd1-ff3c5481eb14")
-	)
-	(wire
-		(pts
 			(xy 110.49 92.71) (xy 110.49 109.22)
 		)
 		(stroke
@@ -2925,13 +3005,33 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 114.3) (xy 179.07 114.3)
+			(xy 154.94 124.46) (xy 180.34 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb6c91e0-86db-49a7-91bb-06874d271b1b")
+		(uuid "eb87a6e8-0200-404e-a060-21889217a90a")
+	)
+	(wire
+		(pts
+			(xy 3.81 68.58) (xy 15.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed196cbe-4e14-4aa4-9b3a-02c7252f6434")
+	)
+	(wire
+		(pts
+			(xy 224.79 77.47) (xy 224.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcb4820-daf5-4840-a1c8-4b77e3ca9678")
 	)
 	(wire
 		(pts
@@ -2945,17 +3045,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 44.45) (xy 52.07 44.45)
+			(xy 158.75 114.3) (xy 179.07 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2669a4b-e8f1-49ac-935b-0bd291bc8eb1")
+		(uuid "f1adda88-37bc-4762-93a5-a0d489ad9810")
 	)
 	(wire
 		(pts
-			(xy 220.98 124.46) (xy 260.35 124.46)
+			(xy 220.98 124.46) (xy 270.51 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +3065,7 @@
 	)
 	(polyline
 		(pts
-			(xy 49.53 46.99) (xy 49.53 34.29)
+			(xy 57.15 46.99) (xy 57.15 34.29)
 		)
 		(stroke
 			(width 1)
@@ -2985,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 36.83) (xy 52.07 44.45)
+			(xy 49.53 36.83) (xy 49.53 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3013,16 +3113,6 @@
 			(color 255 0 22 1)
 		)
 		(uuid "fe1ebef8-3f1a-40a5-9cfa-948135e6cb69")
-	)
-	(wire
-		(pts
-			(xy 115.57 111.76) (xy 115.57 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffbfda18-0418-4689-89c3-aa93f3b6a032")
 	)
 	(text_box "NBM2317\nBIDIRECTIONAL DCDC"
 		(exclude_from_sim no)
@@ -3064,8 +3154,8 @@
 	)
 	(text_box "Normal OUT\nFor using 12V Battery"
 		(exclude_from_sim no)
-		(at 210.82 58.42 0)
-		(size 39.37 29.21)
+		(at 208.28 58.42 0)
+		(size 53.34 39.37)
 		(stroke
 			(width 0)
 			(type default)
@@ -3119,7 +3209,7 @@
 	)
 	(text "1,2:BYPASS OUT\n3,4:GND\n5,6:NBM HI"
 		(exclude_from_sim no)
-		(at 254.762 25.4 0)
+		(at 264.668 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3262,7 +3352,7 @@
 	)
 	(global_label "RELAY3"
 		(shape input)
-		(at 220.98 67.31 180)
+		(at 224.79 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3272,7 +3362,7 @@
 		)
 		(uuid "239cb33a-5828-431d-89b9-72acff02e5f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.161 67.31 0)
+			(at 214.971 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3374,7 @@
 	)
 	(global_label "RELAY1"
 		(shape input)
-		(at 25.4 44.45 180)
+		(at 15.24 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3294,7 +3384,7 @@
 		)
 		(uuid "24084879-aac6-43d8-8ce0-9046c52e2975")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.581 44.45 0)
+			(at 5.421 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3484,7 @@
 	)
 	(global_label "RELAY2"
 		(shape input)
-		(at 127 124.46 180)
+		(at 124.46 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3404,7 +3494,7 @@
 		)
 		(uuid "97331acb-2570-416d-a159-d0a7b9be2050")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.181 124.46 0)
+			(at 114.641 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,16 +3767,15 @@
 	)
 	(symbol
 		(lib_id "YK9010323000G:YK9010323000G")
-		(at 257.81 55.88 90)
+		(at 267.97 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d02ec99-5bb9-4516-8437-a4be79bc6b38")
 		(property "Reference" "J9"
-			(at 266.192 44.5078 90)
+			(at 266.954 26.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3784,7 @@
 			)
 		)
 		(property "Value" "YK9010323000G"
-			(at 266.192 46.9321 90)
+			(at 262.382 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3793,7 @@
 			)
 		)
 		(property "Footprint" "YK9010323000G:YK9010323000G"
-			(at 352.73 39.37 0)
+			(at 362.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3803,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/18/1/GBaMxIyb957x-1379513.pdf"
-			(at 452.73 39.37 0)
+			(at 462.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3813,7 @@
 			)
 		)
 		(property "Description" "Barrier Terminal Blocks TB BARRIER W/COVER"
-			(at 257.81 55.88 0)
+			(at 267.97 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3822,7 @@
 			)
 		)
 		(property "Height" "28.4"
-			(at 652.73 39.37 0)
+			(at 662.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,7 +3832,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol"
-			(at 752.73 39.37 0)
+			(at 762.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +3842,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "YK9010323000G"
-			(at 852.73 39.37 0)
+			(at 862.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3852,7 @@
 			)
 		)
 		(property "Mouser Part Number" "649-YK90103230J0G"
-			(at 952.73 39.37 0)
+			(at 962.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +3862,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/YK9010323000G?qs=Mv7BduZupUgt%2F6dCeQIgqg%3D%3D"
-			(at 1052.73 39.37 0)
+			(at 1062.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3872,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 1152.73 39.37 0)
+			(at 1162.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3882,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 1252.73 39.37 0)
+			(at 1262.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3920,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 19.05 52.07 0)
+		(at 3.81 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3840,7 +3929,7 @@
 		(fields_autoplaced yes)
 		(uuid "5faf8ce8-7465-4012-bc7e-5d7a0064abb3")
 		(property "Reference" "#PWR020"
-			(at 19.05 55.88 0)
+			(at 3.81 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3938,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 19.05 47.9369 0)
+			(at 3.81 61.9069 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 52.07 0)
+			(at 3.81 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 52.07 0)
+			(at 3.81 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3964,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 19.05 52.07 0)
+			(at 3.81 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3986,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 214.63 76.2 0)
+		(at 213.36 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3906,7 +3995,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ea361eb-180d-4351-95d0-4eb7045bb7ca")
 		(property "Reference" "#PWR019"
-			(at 214.63 80.01 0)
+			(at 213.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +4004,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 214.63 72.0669 0)
+			(at 213.36 78.4169 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +4012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 76.2 0)
+			(at 213.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +4021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 76.2 0)
+			(at 213.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +4030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 214.63 76.2 0)
+			(at 213.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,8 +4118,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PC7150:2-1904025-3")
-		(at 38.1 49.53 0)
+		(lib_id "A3K1CSP12VDC1.6D:A3K1CSP12VDC1.6D")
+		(at 15.24 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4039,7 +4128,7 @@
 		(fields_autoplaced yes)
 		(uuid "961f3cb0-d8e2-4df8-badb-b9b04d329186")
 		(property "Reference" "K1"
-			(at 38.1 37.7655 0)
+			(at 30.48 51.7355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,34 +4136,35 @@
 			)
 		)
 		(property "Value" "BATT-EDLC"
-			(at 38.1 40.1898 0)
+			(at 30.48 54.1598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "2-1904025-3:RELAY_2-1904025-3"
-			(at 38.1 49.53 0)
+		(property "Footprint" "A3K1CSP12VDC1.6D:A3K1CSP12VDC16D"
+			(at 41.91 153.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 49.53 0)
+		(property "Datasheet" "https://g.componentsearchengine.com/Datasheets/0/17258424.pdf"
+			(at 41.91 253.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 38.1 49.53 0)
+		(property "Description" "RELAY AUTOMOTIVE SPDT 150A 12V "
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4173,7 @@
 			)
 		)
 		(property "Comment" "2-1904025-3"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4183,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4193,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "25.30 mm"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4203,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4213,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4223,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/2-1904025-3/TE+Connectivity/view-part/?ref=eda"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4233,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4243,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4253,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2-1904025-3/TE+Connectivity/view-part/?ref=snap"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4263,7 @@
 			)
 		)
 		(property "MP" "2-1904025-3"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4273,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=385953&manufacturer=TE Connectivity&part_name=2-1904025-3&search_term=automotive relay"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4283,7 @@
 			)
 		)
 		(property "Description_1" "\nRelay, Automotive, 40A, 24V, SPDT, Non Latching,Socketable, Plug-In, SRF-A Serie | TE Connectivity 2-1904025-3\n"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4293,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,12 +4303,82 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 38.1 49.53 0)
+			(at 15.24 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "24.5"
+			(at 41.91 453.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "CIT Relay & Switch"
+			(at 41.91 553.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3K1CSP12VDC1.6D"
+			(at 41.91 653.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 41.91 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 41.91 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 41.91 953.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 41.91 1053.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -4234,8 +4394,26 @@
 		(pin "30"
 			(uuid "a574ffb4-49b2-4b61-858d-74897675e678")
 		)
-		(pin "87A"
+		(pin "A87"
 			(uuid "b8acb5a4-e426-4ce1-b80a-f68bcaf10baf")
+		)
+		(pin "88"
+			(uuid "9029fcc6-c375-4395-930f-79aa1891350f")
+		)
+		(pin "A89"
+			(uuid "67c9e8d4-9864-4e14-ac73-bb8ffeac1034")
+		)
+		(pin "89"
+			(uuid "8d89b9c3-5840-4641-a914-919446554dc1")
+		)
+		(pin "32"
+			(uuid "fcf07928-b66e-4deb-8585-df81459e7f87")
+		)
+		(pin "31"
+			(uuid "6cea74f5-6c68-4b8f-946c-b95de7c14a66")
+		)
+		(pin "A88"
+			(uuid "ad1152f8-b19d-400a-b7cd-39bad3a57cdb")
 		)
 		(instances
 			(project "PowerConditioner"
@@ -4312,8 +4490,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PC7150:2-1904025-3")
-		(at 231.14 72.39 0)
+		(lib_id "A3K1CSP12VDC1.6D:A3K1CSP12VDC1.6D")
+		(at 224.79 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4321,7 +4499,7 @@
 		(dnp no)
 		(uuid "d2e334b2-7092-4a9a-885f-03f321534b9a")
 		(property "Reference" "K3"
-			(at 238.252 84.7203 0)
+			(at 239.268 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,7 +4508,7 @@
 			)
 		)
 		(property "Value" "OUTPUT"
-			(at 238.252 82.296 0)
+			(at 241.3 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,27 +4516,28 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "2-1904025-3:RELAY_2-1904025-3"
-			(at 231.14 72.39 0)
+		(property "Footprint" "A3K1CSP12VDC1.6D:A3K1CSP12VDC16D"
+			(at 251.46 169.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 231.14 72.39 0)
+		(property "Datasheet" "https://g.componentsearchengine.com/Datasheets/0/17258424.pdf"
+			(at 251.46 269.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 231.14 72.39 0)
+		(property "Description" "RELAY AUTOMOTIVE SPDT 150A 12V "
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4546,7 @@
 			)
 		)
 		(property "Comment" "2-1904025-3"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4556,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4566,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "25.30 mm"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4576,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4586,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4596,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/2-1904025-3/TE+Connectivity/view-part/?ref=eda"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4606,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4616,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4626,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2-1904025-3/TE+Connectivity/view-part/?ref=snap"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4636,7 @@
 			)
 		)
 		(property "MP" "2-1904025-3"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +4646,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=385953&manufacturer=TE Connectivity&part_name=2-1904025-3&search_term=automotive relay"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,7 +4656,7 @@
 			)
 		)
 		(property "Description_1" "\nRelay, Automotive, 40A, 24V, SPDT, Non Latching,Socketable, Plug-In, SRF-A Serie | TE Connectivity 2-1904025-3\n"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +4666,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,12 +4676,82 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 231.14 72.39 0)
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "24.5"
+			(at 251.46 469.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "CIT Relay & Switch"
+			(at 251.46 569.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3K1CSP12VDC1.6D"
+			(at 251.46 669.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 251.46 769.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 251.46 869.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 251.46 969.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 251.46 1069.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -4512,7 +4761,7 @@
 		(pin "30"
 			(uuid "dd638ec0-f003-45ad-96c3-f059a648ea4f")
 		)
-		(pin "87A"
+		(pin "89"
 			(uuid "84d29f43-713f-437a-8d85-cf7c8ac431ce")
 		)
 		(pin "87"
@@ -4520,6 +4769,24 @@
 		)
 		(pin "85"
 			(uuid "cd3a86c2-9ba2-455b-b66d-1522ba234ed7")
+		)
+		(pin "31"
+			(uuid "d0f57476-7de9-4c50-a47c-142668b28b29")
+		)
+		(pin "A88"
+			(uuid "cfc7fbab-ba2b-4404-bec1-da01cdb1d376")
+		)
+		(pin "88"
+			(uuid "5fdda410-d192-4db2-9a85-f1f295ed0282")
+		)
+		(pin "A89"
+			(uuid "08e02e94-48c4-4b67-8052-97c7962ca221")
+		)
+		(pin "A87"
+			(uuid "9a78ca3c-343c-4190-be93-60d81ad1ae10")
+		)
+		(pin "32"
+			(uuid "04ecaae2-ff1f-4359-bdd4-99f2f2d85c54")
 		)
 		(instances
 			(project "PowerConditioner"
@@ -4532,7 +4799,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 115.57 111.76 0)
+		(at 113.03 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4541,7 +4808,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4941c0e-a531-42ae-88ba-e6ac3df66b39")
 		(property "Reference" "#PWR018"
-			(at 115.57 115.57 0)
+			(at 113.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4817,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 115.57 107.6269 0)
+			(at 113.03 115.2469 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 111.76 0)
+			(at 113.03 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +4834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 111.76 0)
+			(at 113.03 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 115.57 111.76 0)
+			(at 113.03 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4865,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 128.27 0)
+		(at 270.51 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4607,7 +4874,7 @@
 		(fields_autoplaced yes)
 		(uuid "e97d5038-fda1-4454-adae-30e17ff12871")
 		(property "Reference" "#PWR03"
-			(at 260.35 134.62 0)
+			(at 270.51 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.255 129.54 0)
+			(at 272.415 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4910,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 128.27 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,18 +4931,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PC7150:2-1904025-3")
-		(at 140.97 119.38 0)
-		(mirror x)
+		(lib_id "A3K1CSP12VDC1.6D:A3K1CSP12VDC1.6D")
+		(at 124.46 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f68d7e3a-66b6-4a37-a095-fe8b939de148")
 		(property "Reference" "K2"
-			(at 140.97 107.6155 0)
+			(at 139.192 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,34 +4948,35 @@
 			)
 		)
 		(property "Value" "SERIAL-PARALLEL"
-			(at 140.97 110.0398 0)
+			(at 139.954 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "2-1904025-3:RELAY_2-1904025-3"
-			(at 140.97 119.38 0)
+		(property "Footprint" "A3K1CSP12VDC1.6D:A3K1CSP12VDC16D"
+			(at 151.13 209.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 140.97 119.38 0)
+		(property "Datasheet" "https://g.componentsearchengine.com/Datasheets/0/17258424.pdf"
+			(at 151.13 309.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 119.38 0)
+		(property "Description" "RELAY AUTOMOTIVE SPDT 150A 12V "
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4985,7 @@
 			)
 		)
 		(property "Comment" "2-1904025-3"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +4995,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +5005,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "25.30 mm"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +5015,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +5025,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,7 +5035,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/2-1904025-3/TE+Connectivity/view-part/?ref=eda"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +5045,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +5055,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +5065,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2-1904025-3/TE+Connectivity/view-part/?ref=snap"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +5075,7 @@
 			)
 		)
 		(property "MP" "2-1904025-3"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +5085,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=385953&manufacturer=TE Connectivity&part_name=2-1904025-3&search_term=automotive relay"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5095,7 @@
 			)
 		)
 		(property "Description_1" "\nRelay, Automotive, 40A, 24V, SPDT, Non Latching,Socketable, Plug-In, SRF-A Serie | TE Connectivity 2-1904025-3\n"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +5105,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,12 +5115,82 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 140.97 119.38 0)
+			(at 124.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "24.5"
+			(at 151.13 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "CIT Relay & Switch"
+			(at 151.13 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A3K1CSP12VDC1.6D"
+			(at 151.13 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 151.13 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 151.13 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 151.13 1009.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 151.13 1109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -4870,8 +5206,26 @@
 		(pin "30"
 			(uuid "c4311434-eaf6-4f9f-8b92-1a8b0ae6c414")
 		)
-		(pin "87A"
+		(pin "88"
 			(uuid "cc36876c-89c9-4f55-8542-3c2aa42980d3")
+		)
+		(pin "A87"
+			(uuid "cc3492ba-33ef-4177-ab83-2830dc6f7e8c")
+		)
+		(pin "A89"
+			(uuid "0c9c6b5d-653e-464a-8f9c-d13aceca1e1b")
+		)
+		(pin "A88"
+			(uuid "11503233-4bf9-44b9-8132-c538dbec8c6e")
+		)
+		(pin "32"
+			(uuid "4815a08e-5f90-4906-8b2e-67c08bafbb7c")
+		)
+		(pin "31"
+			(uuid "031ebc18-69f0-4f2b-81f6-8df54385f436")
+		)
+		(pin "89"
+			(uuid "3833b8a2-1f18-48cd-8c20-ee47b423a593")
 		)
 		(instances
 			(project "PowerConditioner"
